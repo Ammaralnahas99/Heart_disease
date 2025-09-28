@@ -6,7 +6,7 @@ This project builds a heart disease prediction system using the UCI Heart Diseas
 
 Project Workflow
 
-⿡ Data Preprocessing
+1-Data Preprocessing
 
 • Handled missing values and categorical encodings
 
@@ -14,7 +14,7 @@ Project Workflow
 
 • Performed dimensionality reduction with PCA to retain variance while reducing noise
 
-⿢ Exploratory Data Analysis (EDA)
+2-Exploratory Data Analysis (EDA)
 
 • Visualized feature distributions and correlations
 
@@ -22,7 +22,7 @@ Project Workflow
 
 • Compared class distributions (healthy vs. heart disease)
 
-⿣ Supervised Learning (Classification Models)
+3- Supervised Learning (Classification Models)
 
 • Trained and compared multiple models:
 
@@ -39,7 +39,7 @@ Project Workflow
   • Gradient Boosting
 Each model was evaluated on training vs testing accuracy to check for overfitting or underfitting.
 
-⿤ Hyperparameter Tuning
+4- Hyperparameter Tuning
 
 • Applied GridSearchCV with cross-validation for each model
 
@@ -47,7 +47,7 @@ Each model was evaluated on training vs testing accuracy to check for overfittin
 
 • Compared tuned model performances
 
-⿥ Clustering (Unsupervised Learning)
+5-Clustering (Unsupervised Learning)
 
 • Applied K-Means Clustering (with elbow method)
 
