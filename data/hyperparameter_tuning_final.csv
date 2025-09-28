@@ -1,0 +1,4 @@
+Model,Best_Params,Accuracy,Precision,Recall,F1_Score
+RandomForest,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_depth': None}",0.8688524590163934,0.8766252119841718,0.8688524590163934,0.8689934778776661
+SVM,"{'kernel': 'linear', 'gamma': 'scale', 'C': 0.1}",0.8524590163934426,0.8570597567424643,0.8524590163934426,0.8526971777874807
+LogisticRegression,"{'solver': 'liblinear', 'penalty': 'l2', 'C': 1}",0.8688524590163934,0.8766252119841718,0.8688524590163934,0.8689934778776661
